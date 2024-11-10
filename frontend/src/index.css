@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: sans-serif;
+    -webkit-tap-highlight-color: transparent; 
+}
+
+@keyframes loader {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  
+  .animate-loader {
+    animation: loader 2s linear infinite;
+  }
+  @media screen and (max-width:500px) {
+   body{
+    font-size: 14px;
+   }
+  }
+
+
+  
